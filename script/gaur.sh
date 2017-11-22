@@ -1,4 +1,5 @@
 #!/bin/sh
+rm /home/script/gaurkoak.log
 echo "<div style='background-color:red; padding-left:40%; margin:3px; width:420px;  height:20px;'>" >> /var/www/html/logak.html
 
 echo "Hona hemen gaurko logak: <a href='gailuak/"$(date -d "5 minutes ago" +"%F")".html'>"$(date)"</a>" >> /var/www/html/logak.html
